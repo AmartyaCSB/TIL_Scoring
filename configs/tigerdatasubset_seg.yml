@@ -1,0 +1,14 @@
+--- 
+training: 
+  - 
+    wsa: 
+      path: /data/wsirois/wsi-level-annotations/annotations-tissue-cells-xmls/114S.xml
+    wsi: 
+      path: /data/wsirois/wsi-level-annotations/images/114S.tif
+      
+inference: 
+  - 
+    wsa: 
+      path: /data/wsirois/wsi-level-annotations/annotations-tissue-cells-xmls/114S.xml
+    wsi: 
+      path: /data/wsirois/wsi-level-annotations/images/114S.tif
