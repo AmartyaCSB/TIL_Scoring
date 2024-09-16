@@ -1,0 +1,478 @@
+--- 
+training: 
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/103S.xml
+    wsi: 
+      path: /data/wsibulk/images/103S.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/111S.xml
+    wsi: 
+      path: /data/wsibulk/images/111S.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/119S.xml
+    wsi: 
+      path: /data/wsibulk/images/119S.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/124S.xml
+    wsi: 
+      path: /data/wsibulk/images/124S.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/128B.xml
+    wsi: 
+      path: /data/wsibulk/images/128B.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/130S.xml
+    wsi: 
+      path: /data/wsibulk/images/130S.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/140S.xml
+    wsi: 
+      path: /data/wsibulk/images/140S.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/141B.xml
+    wsi: 
+      path: /data/wsibulk/images/141B.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/144S.xml
+    wsi: 
+      path: /data/wsibulk/images/144S.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/151S.xml
+    wsi: 
+      path: /data/wsibulk/images/151S.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/156S.xml
+    wsi: 
+      path: /data/wsibulk/images/156S.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/163S.xml
+    wsi: 
+      path: /data/wsibulk/images/163S.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/170S.xml
+    wsi: 
+      path: /data/wsibulk/images/170S.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/173B.xml
+    wsi: 
+      path: /data/wsibulk/images/173B.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/177B.xml
+    wsi: 
+      path: /data/wsibulk/images/177B.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/183S.xml
+    wsi: 
+      path: /data/wsibulk/images/183S.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/190S.xml
+    wsi: 
+      path: /data/wsibulk/images/190S.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/192B.xml
+    wsi: 
+      path: /data/wsibulk/images/192B.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/195S.xml
+    wsi: 
+      path: /data/wsibulk/images/195S.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/197B.xml
+    wsi: 
+      path: /data/wsibulk/images/197B.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/204S.xml
+    wsi: 
+      path: /data/wsibulk/images/204S.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/213B.xml
+    wsi: 
+      path: /data/wsibulk/images/213B.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/222B.xml
+    wsi: 
+      path: /data/wsibulk/images/222B.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/229S.xml
+    wsi: 
+      path: /data/wsibulk/images/229S.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/235B.xml
+    wsi: 
+      path: /data/wsibulk/images/235B.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/238S.xml
+    wsi: 
+      path: /data/wsibulk/images/238S.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/239B.xml
+    wsi: 
+      path: /data/wsibulk/images/239B.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/241S.xml
+    wsi: 
+      path: /data/wsibulk/images/241S.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/254S.xml
+    wsi: 
+      path: /data/wsibulk/images/254S.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000002_C0001_B107.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000002_C0001_B107.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000009_C0001_B205.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000009_C0001_B205.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000012_C0001_B103.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000012_C0001_B103.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000017_C0001_B106.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000017_C0001_B106.tif      
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000031_C0001_B126.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000031_C0001_B126.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000034_C0001_B101.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000034_C0001_B101.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000035_C0001_B101.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000035_C0001_B101.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000040_C0001_B201.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000040_C0001_B201.tif 
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000048_C0001_B101.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000048_C0001_B101.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000050_C0001_B101.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000050_C0001_B101.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000051_C0001_B101.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000051_C0001_B101.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000053_C0001_B101.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000053_C0001_B101.tif 
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000059_C0001_B101.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000059_C0001_B101.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000062_C0001_B102.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000062_C0001_B102.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000066_C0001_B101.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000066_C0001_B101.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000069_C0001_B101.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000069_C0001_B101.tif 
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000072_C0001_B101.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000072_C0001_B101.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000075_C0001_B101.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000075_C0001_B101.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000076_C0001_B101.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000076_C0001_B101.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000082_C0001_B101.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000082_C0001_B101.tif 
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000086_C0001_B101.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000086_C0001_B101.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000090_C0001_B101.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000090_C0001_B101.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000098_C0001_B101.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000098_C0001_B101.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000102_C0001_B101.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000102_C0001_B101.tif 
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000109_C0001_B101.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000109_C0001_B101.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000111_C0001_B101.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000111_C0001_B101.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000114_C0001_B101.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000114_C0001_B101.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000117_C0001_B101.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000117_C0001_B101.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000121_C0001_B101.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000121_C0001_B101.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000125_C0001_B101.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000125_C0001_B101.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000126_C0001_B101.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000126_C0001_B101.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000129_C0001_B101.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000129_C0001_B101.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000137_C0001_B101.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000137_C0001_B101.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000138_C0001_B101.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000138_C0001_B101.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000140_C0001_B101.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000140_C0001_B101.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000144_C0001_B107.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000144_C0001_B107.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000150_C0001_B101.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000150_C0001_B101.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000152_C0001_B101.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000152_C0001_B101.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000153_C0001_B109.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000153_C0001_B109.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000162_C0001_B101.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000162_C0001_B101.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000170_C0001_B101.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000170_C0001_B101.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000173_C0001_B112.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000173_C0001_B112.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000177_C0001_B101.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000177_C0001_B101.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000179_C0001_B101.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000179_C0001_B101.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000185_C0001_B101.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000185_C0001_B101.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000187_C0001_B101.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000187_C0001_B101.tif
+      
+      
+validation: 
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/127B.xml
+    wsi: 
+      path: /data/wsibulk/images/127B.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/143S.xml
+    wsi: 
+      path: /data/wsibulk/images/143S.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/141B.xml
+    wsi: 
+      path: /data/wsibulk/images/141B.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/166B.xml
+    wsi: 
+      path: /data/wsibulk/images/166B.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/200S.xml
+    wsi: 
+      path: /data/wsibulk/images/200S.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/232S.xml
+    wsi: 
+      path: /data/wsibulk/images/232S.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/249B.xml
+    wsi: 
+      path: /data/wsibulk/images/249B.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000023_C0001_B204.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000023_C0001_B204.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000044_C0001_B101.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000044_C0001_B101.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000056_C0001_B101.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000056_C0001_B101.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000070_C0001_B103.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000070_C0001_B103.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000084_C0001_B101.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000084_C0001_B101.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000105_C0001_B201.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000105_C0001_B201.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000118_C0001_B101.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000118_C0001_B101.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000133_C0001_B101.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000133_C0001_B101.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000148_C0001_B101.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000148_C0001_B101.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000167_C0001_B101.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000167_C0001_B101.tif
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/TC_S01_P000180_C0001_B101.xml
+    wsi: 
+      path: /data/wsibulk/images/TC_S01_P000180_C0001_B101.tif
+      
+      
+inference: 
+  - 
+    wsa: 
+      path: /data/wsibulk/annotations-tumor-bulk/xmls/187S.xml
+    wsi: 
+      path: /data/wsibulk/images/187S.tif

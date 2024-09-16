@@ -1,0 +1,52 @@
+wholeslidedata:
+    default:
+        image_backend: pyvips
+        seed: 131
+        yaml_source: tigerdatasubset.yml
+        
+        label_map:
+            tumor-bulk: 1
+            rest: 0
+            
+    training:        
+        batch_shape:
+            batch_size: 4
+            spacing: 8
+            shape: [284, 284, 3]
+            y_shape: [284, 284]
+            
+
+        point_sampler:
+            attribute: RandomPointSampler
+            #buffer: -142
+            
+        annotation_parser:
+            sample_label_names: ['tumor-bulk']
+            
+    validation:        
+        batch_shape:
+            batch_size: 1
+            spacing: 8
+            shape: [284, 284, 3]
+            y_shape: [284, 284]
+            
+        point_sampler:
+            attribute: RandomPointSampler
+            #buffer: -142
+            
+        annotation_parser:
+            sample_label_names: ['tumor-bulk']
+    
+    inference:        
+        batch_shape:
+            batch_size: 1
+            spacing: 8
+            shape: [2000, 2000, 3]
+            y_shape: [2000, 2000]
+            
+        point_sampler:
+            attribute: RandomPointSampler
+            #buffer: -142
+            
+        annotation_parser:
+            sample_label_names: ['tumor-bulk']
