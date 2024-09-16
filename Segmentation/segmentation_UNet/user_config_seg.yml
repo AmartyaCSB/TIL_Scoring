@@ -1,0 +1,58 @@
+wholeslidedata:
+    default:
+        #image_backend: pyvips
+        yaml_source: tigerdat_seg.yml
+        
+        label_map:
+            roi: 0
+            invasive tumor: 1
+            tumor-associated stroma: 2
+            in-situ tumor: 3
+            healthy glands: 4
+            necrosis not in-situ: 5
+            inflamed stroma: 6
+            rest: 7
+            
+        annotation_parser:
+            sample_label_names: ['roi']
+    
+    training:
+        batch_shape:
+            batch_size: 12
+            shape: [[284, 284, 3], [284, 284, 3]]
+            y_shape: [2, 70, 70, 7]
+            spacing: [0.5, 8.0]
+
+        point_sampler:
+            attribute: RandomPointSampler
+            buffer: -142
+
+        sample_callbacks:
+            - module: wholeslidedata.samplers.callbacks
+              attribute: FitOutput
+              output_shape: [70, 70]
+              
+            - module: wholeslidedata.samplers.callbacks
+              attribute: OneHotEncoding
+              labels: ${wholeslidedata:labels}
+
+
+    inference:
+        batch_shape:
+            batch_size: 2
+            shape: [[284, 284, 3], [284, 284, 3]]
+            y_shape: [2, 70, 70, 7]
+            spacing: [0.5, 8.0]
+
+        point_sampler:
+            attribute: RandomPointSampler
+            buffer: -142
+
+        sample_callbacks:
+            - module: wholeslidedata.samplers.callbacks
+              attribute: FitOutput
+              output_shape: [70, 70]
+              
+            - module: wholeslidedata.samplers.callbacks
+              attribute: OneHotEncoding
+              labels: ${wholeslidedata:labels}
